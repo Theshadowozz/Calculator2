@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-gradient-to-r from-white flex items-center justify-center
+    min-h-screen">
+        <div class="bg-[#183B4E] shadow-lg rounded-2xl max-w-sm mx-auto" style="width: 320px;">
+            <div class="mb-4">
+                <div id="result" class="rounded-lg w-full p-8 text-right bg-[#183B4E] text-white "></div>
+                <input id="display" class="w-full p-3 text-right bg-[#183B4E] text-white text-3xl font-semibold rounded-lg mb-4" disabled type="text">
+            </div>
+            <div id="buttons" class="grid grid-cols-4 gap-0.5">
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-[#DDA853] cursor-pointer">AC</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-2xl font-semibold text-[#DDA853] cursor-pointer">+/-</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-[#DDA853] cursor-pointer">⌫</button>
+                <button class="rounded-lg bg-[#DDA853] hover:bg-orange-400 transition-colors duration-300 p-5 text-l font-semibold text-white cursor-pointer">×</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">7</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">8</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">9</button>
+                <button class="rounded-lg bg-[#DDA853] hover:bg-orange-400 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">-</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">4</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">5</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">6</button>
+                <button class="rounded-lg bg-[#DDA853] hover:bg-orange-400 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">+</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">1</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">2</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">3</button>
+                <button class="rounded-lg bg-[#DDA853] hover:bg-orange-400 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">÷</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">.</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">0</button>
+                <button class="rounded-lg bg-[#27548A] hover:bg-gray-900 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">%</button>
+                <button class="rounded-lg bg-[#DDA853] hover:bg-orange-400 transition-colors duration-300 p-5 text-xl font-semibold text-white cursor-pointer">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
